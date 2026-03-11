@@ -1,0 +1,63 @@
+---
+title: "People"
+page-layout: full
+listing:
+  - id: pi-listing
+    contents: "*/index.qmd"
+    type: grid
+    grid-columns: 3
+    image-height: 350px
+    fields: [image, title, subtitle, description]
+    sort: "order"
+    include:
+      group: "pi"
+  - id: grad-listing
+    contents: "*/index.qmd"
+    type: grid
+    grid-columns: 3
+    image-height: 350px
+    fields: [image, title, subtitle, description]
+    sort: "order"
+    include:
+      group: "grad"
+  - id: undergrad-listing
+    contents: "*/index.qmd"
+    type: grid
+    grid-columns: 3
+    image-height: 350px
+    fields: [image, title, subtitle, description]
+    sort: "order"
+    include:
+      group: "undergrad"
+  - id: alumni-listing
+    contents: "*/index.qmd"
+    type: grid
+    grid-columns: 3
+    image-height: 350px
+    fields: [image, title, subtitle, description]
+    sort: "order"
+    include:
+      group: "alumni"
+---
+
+Meet the members of the MARSS Lab.
+
+## Principal Investigator
+
+::: {#pi-listing}
+:::
+
+## Graduate Students
+
+::: {#grad-listing}
+:::
+
+## Undergraduate Students
+
+::: {#undergrad-listing}
+:::
+
+## A Selection of Lab Alumni
+
+::: {#alumni-listing}
+:::

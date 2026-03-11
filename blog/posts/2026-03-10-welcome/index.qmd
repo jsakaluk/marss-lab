@@ -1,0 +1,9 @@
+---
+title: "Welcome to the MARSS Lab Blog"
+description: "Introducing the new MARSS Lab website."
+author: "John Sakaluk"
+date: "2026-03-10"
+categories: [News]
+---
+
+Hello world! Welcome to the new MARSS Lab website! We are excited to launch this space as a hub for our research, people, and ideas.

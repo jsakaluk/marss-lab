@@ -1,0 +1,40 @@
+---
+title: "Your Name"
+subtitle: "Your Role"
+description: "Brief description of research interests and role in the lab."
+image: avatar.jpg
+group: grad
+order: 99
+toc: false
+---
+
+::: {.profile-header}
+![](avatar.jpg)
+
+# Your Name {.name}
+
+::: {.subtitle}
+Your Role | Department of Psychology | Western University
+:::
+
+:::
+
+## About
+
+A short paragraph describing your background, how you joined the lab, and your current research focus.
+
+## Research Interests
+
+- Interest area 1
+- Interest area 2
+- Interest area 3
+
+## Education
+
+- **Degree** — University Name
+
+## Contact
+
+- {{< fa envelope >}} [email@uwo.ca](mailto:email@uwo.ca)
+- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
+- {{< fa brands github >}} [GitHub](https://github.com/username)

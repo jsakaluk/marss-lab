@@ -1,0 +1,26 @@
+---
+title: "Dr. Alexandra Fisher"
+subtitle: "Lecturer"
+description: "University of Edinburgh: School of Philosophy, Psychology and Language Sciences"
+image: avatar.jpg
+group: alumni
+order: 1
+toc: false
+---
+
+::: {.profile-header}
+![](avatar.jpg)
+
+
+:::
+
+## About
+
+Former MaRSS Lab doctoral student. 
+
+
+## Contact
+
+- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=OKATbwwAAAAJ&hl=en)
+- {{< fa globe >}} [Personal Website](https://www.alexnfisher.com/)
+- {{< fa globe >}} [University of Edinburgh](https://edwebprofiles.ed.ac.uk/profile/alexandra-n-fisher)

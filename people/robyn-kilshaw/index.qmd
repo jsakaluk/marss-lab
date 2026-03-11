@@ -1,0 +1,25 @@
+---
+title: "Robin Kilshaw"
+subtitle: "Doctoral Student"
+description: "University of Utah, Clinical Psychology"
+image: avatar.jpg
+group: alumni
+order: 1
+toc: false
+---
+
+::: {.profile-header}
+![](avatar.jpg)
+
+
+:::
+
+## About
+
+Former MaRSS Lab honours student. Winner of the Canadian Psychological Association’s Honours Thesis Certificate of Excellence.
+
+
+## Contact
+
+- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=WpD2M6MAAAAJ&hl=en)
+- {{< fa globe >}} [University of Utah](https://psych.utah.edu/people/graduate-students/kilshaw-robyn.php)

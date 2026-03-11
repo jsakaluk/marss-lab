@@ -1,0 +1,56 @@
+---
+title: "dySim"
+description: "An R package for running Monte Carlo simulations to evaluate methods of dyadic data analysis."
+image: thumb.png
+categories: [R Package, Methods, Simulation, Dyadic Data]
+date: 2024-01-01
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-3}
+![dySim hex logo](thumb.png){width="100%"}
+:::
+
+## Overview {.g-col-12 .g-col-md-9}
+
+The `dySim` package simplifies the process of running a variety of Monte Carlo simulations for the purpose of evaluating methods of dyadic data analysis. `dySim` builds on the [lavaan](https://lavaan.ugent.be/) and [dySEM](../dySEM/index.qmd) packages.
+
+The package is under active development and is being brought into alignment with the current functionality of `dySEM`.
+
+:::
+
+## Intended Scope
+
+`dySim` is designed to support simulations of:
+
+- **Parameter estimation** -- bias, accuracy, and coverage
+- **Statistical power** -- power analysis and sample size planning
+- **Model evaluation** -- model evaluation and selection under various data-generating conditions
+
+## Development Status
+
+`dySim` is in an **experimental** lifecycle stage. The API and functionality are evolving rapidly. After a period of dormancy, active development has resumed, with the package being brought into alignment with `dySEM`'s growing feature set.
+
+Would-be users should expect changes to the API in the near future. Reach out if you have questions about usage or suggestions for new features.
+
+## Installation
+
+Install the development version from GitHub:
+
+```r
+# install.packages("devtools")
+devtools::install_github("jsakaluk/dySim")
+```
+
+## Links
+
+- {{< fa brands github >}} [GitHub Repository](https://github.com/jsakaluk/dySim)
+- {{< fa book >}} [Package Documentation](https://jsakaluk.github.io/dySim/)
+
+## Media
+
+<!-- Add press releases, news coverage, blog posts, etc. as bullet points: -->
+<!-- -  [Article Title](https://link-to-article.com) -->
+
+*No media coverage yet. Add links here as they become available.*

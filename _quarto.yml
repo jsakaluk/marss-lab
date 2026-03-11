@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "MARSS Lab"
+  favicon: images/logo.png
+  navbar:
+    title: "MARSS Lab"
+    background: "#2D4674"
+    foreground: "#FFFFFF"
+    left:
+      - text: "Lab Philosophy"
+        href: philosophy.qmd
+      - text: "People"
+        href: people/index.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Our Papers"
+        href: papers/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+      - text: "Join the Lab"
+        href: join.qmd
+    tools:
+      - icon: moon
+        id: theme-toggle
+  page-footer:
+    background: "#2D4674"
+    foreground: "#FFFFFF"
+    center: |
+      &copy; 2026 MARSS Lab &mdash; Methodology and Relationship/Sexual Science | Western University
+
+format:
+  html:
+    theme:
+      light: [flatly, custom.scss]
+      dark: [darkly, custom-dark.scss]
+    toc: false
+    link-external-newwindow: true

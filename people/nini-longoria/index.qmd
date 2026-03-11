@@ -1,0 +1,25 @@
+---
+title: "Nini Longoria"
+subtitle: "Mixed-Methods Research Scientist"
+description: "Radancy"
+image: avatar.jpg
+group: alumni
+order: 1
+toc: false
+---
+
+::: {.profile-header}
+![](avatar.jpg)
+
+
+:::
+
+## About
+
+Former MaRSS Lab graduate student. 
+
+
+## Contact
+
+- {{< fa linkedin >}} [LinkedIn](https://www.linkedin.com/in/ninilongoria/)
+- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=MtxQRCQAAAAJ&hl=en&oi=ao)

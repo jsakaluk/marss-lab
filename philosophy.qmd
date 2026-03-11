@@ -1,0 +1,162 @@
+---
+title: "Lab Philosophy"
+---
+
+## Lab Values
+
+::: {.grid}
+
+### {{< fa microscope >}} Rigour {.g-col-12 .g-col-md-6}
+
+We care deeply about doing research well, and pushing ourselves to continue learning as methods and analytic techniques evolve and improve. We strive to maintain methodological ambition: applying cutting edge modeling techniques, recruting larger or more diverse samples, coding larger secondary data sets, etc, to ensure that we deliver impactful research outputs.  
+
+### {{< fa lock-open >}} Openness {.g-col-12 .g-col-md-6}
+
+We are committed to methodological practices that enhance transparency and reproducibility. We strongly believe in sharing open data and code whenever possible, and democratizing access to scientific insights and rigouros practices through open-access publication  (often via preprints) and open-source software. We are also enthusiastic about registered reports, and open peer review.
+
+### {{< fa people-group >}} Inclusivity {.g-col-12 .g-col-md-6}
+
+We study diverse relationships and sexualities, and we strive to build a lab environment that is welcoming to people of all backgrounds, identities, and experiences. Our research is stronger because of the perspectives each member brings.
+
+:::
+
+## Dr. Sakaluk's Mentorship Approach
+
+I am committed to a mentorship model that is:
+
+::: {.grid}
+
+### {{< fa compass >}} Autonomy-Supporting {.g-col-12 .g-col-md-6}
+
+What are your professional goals? What employment doors to you want to keep open? What technical, research, and/or professional skills do you need to get there? What kind of research do you want to be known for, topically and/or methodologically? We will have conversations withe questions like these, early, and often. I believe it is important that you make your own decisions about your career; my job is to offer you an opinion and sounding-board, and to help you reason through trade-offs.
+
+### {{< fa chess >}} Strategic {.g-col-12 .g-col-md-6}
+
+Whereas ideas and energy are plentiful, time is a precious resource throughout your program. I strive to help you make choices that are consistent with your goals and values, and to maintain both your ambition and your sensibilities about time constraints.
+
+### {{< fa handshake >}} Collaborative {.g-col-12 .g-col-md-6}
+
+While I believe in my ability to enrich my students' training, I also believe in the value of learning from each other. I strive to create a lab environment that is supportive of collaborative learning and knowledge-sharing. Expect to learn from your peers, and to be generous with what you know. I also am a firm believer that comprehensive graduate training requires you to gain exposure working with other faculty (here, or elsewhere), and I strive to facilitate these opportunities for you.
+
+### {{< fa shield-halved >}} Professionally Resilient {.g-col-12 .g-col-md-6}
+
+Jobs and interests can and do change, and I strive to help you develop the skills and strategies to navigate the ups and downs of academia and beyond. Strong quantiative reasoning about social science questions, technical tool-building, programming, and professional writing and speaking are skills that are in demand in a variety of contexts. I strive to help you develop these skills, and to help you navigate the challenges of applying them in your career.
+
+:::
+
+
+## Skills Training
+
+Trainees in the MARSS Lab develop expertise across a range of methodological and professional skills. Here are some of the skills you can expect to learn:
+
+::: {.skills-grid}
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa ruler-combined >}}
+:::
+::: {.skill-label}
+Psychometrics
+:::
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa people-arrows >}}
+:::
+::: {.skill-label}
+Dyadic Data Analysis
+:::
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa brands r-project >}}
+:::
+::: {.skill-label}
+R Programming
+:::
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa arrows-rotate >}}
+:::
+::: {.skill-label}
+Reproducible Data Analysis
+:::
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa brands github >}}
+:::
+::: {.skill-label}
+Git/GitHub Version Control
+:::
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa magnifying-glass-chart >}}
+:::
+::: {.skill-label}
+Research Synthesis
+:::
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa universal-access >}}
+:::
+::: {.skill-label}
+Inclusive Data Analysis Strategies
+:::
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa robot >}}
+:::
+::: {.skill-label}
+Responsible AI Use
+:::
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa flask-vial >}}
+:::
+::: {.skill-label}
+Open Science Methods
+:::
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa chart-line >}}
+:::
+::: {.skill-label}
+Statistical Literacy
+:::
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa pen-nib >}}
+:::
+::: {.skill-label}
+Professional Writing
+:::
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa chalkboard-user >}}
+:::
+::: {.skill-label}
+Professional Speaking
+:::
+:::
+
+:::

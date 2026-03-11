@@ -1,0 +1,9 @@
+---
+title: "Blog"
+listing:
+  contents: posts/*/index.qmd
+  type: default
+  sort: "date desc"
+  fields: [date, title, description, categories, author]
+page-layout: full
+---

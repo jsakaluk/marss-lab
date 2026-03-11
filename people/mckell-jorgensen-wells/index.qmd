@@ -1,0 +1,41 @@
+---
+title: "McKell Jorgensen-Wells"
+subtitle: "Doctoral Student"
+description: "Brief description of research interests and role in the lab. Edit this file to customize your profile."
+image: avatar.jpg
+group: grad
+order: 1
+toc: false
+---
+
+::: {.profile-header}
+![](avatar.jpg)
+
+# Graduate Student Name {.name}
+
+::: {.subtitle}
+Ph.D. Student | Department of Psychology | Western University
+:::
+
+:::
+
+## About
+
+A short paragraph describing your background, how you joined the lab, and your current research focus.
+
+## Research Interests
+
+- Interest area 1
+- Interest area 2
+- Interest area 3
+
+## Education
+
+- **M.A.** — University Name
+- **B.A.** — University Name
+
+## Contact
+
+- {{< fa envelope >}} [email@uwo.ca](mailto:email@uwo.ca)
+- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
+- {{< fa brands github >}} [GitHub](https://github.com/username)

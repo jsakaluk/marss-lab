@@ -1,0 +1,14 @@
+---
+title: "Projects"
+listing:
+  id: projects-listing
+  contents: "*/index.qmd"
+  type: grid
+  grid-columns: 2
+  image-height: 150px
+  fields: [image, title, description, categories]
+  sort: "date desc"
+page-layout: full
+---
+
+Browse the research projects and software packages developed by the MARSS Lab.

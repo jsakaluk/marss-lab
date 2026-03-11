@@ -1,0 +1,46 @@
+---
+title: "John Sakaluk"
+subtitle: "Principal Investigator"
+description: "Associate Professor of Psychology at Western University. Research interests include psychometrics, dyadic data analysis, research synthesis methods, and open-source research software development"
+image: avatar.jpg
+group: pi
+order: 1
+toc: false
+---
+
+::: {.profile-header}
+![](avatar.jpg)
+
+# John Sakaluk {.name}
+
+::: {.subtitle}
+Associate Professor | Department of Psychology | Western University
+:::
+
+:::
+
+## About
+
+I am an Associate Professor in the Department of Psychology at Western University, and director of the MaRSS Lab. My research interests are at the intersection of quantitative methodology and relationship and sexual science, and I am increasingly interested in open-source research software development as a form of reproducible knowledge creation.
+
+## Research Interests
+
+- Psychometric modeling
+- Dyadic data analysis
+- Monte Carlo simulation and method evaluation
+- Research synthesis methods
+- R package development
+
+## Education
+
+- **SSHRC Postdoctoral Fellow** — University of Toronto (Mississauga)
+- **Ph.D.** — University of Kansas (Social Psychology + Quantitative Psychology [Minor])
+- **M.Sc.** — University of Kansas (Social Psychology)
+- **B.A.** — University of Guelph (Psychology)
+
+## Contact
+
+- {{< fa globe >}} [Western University Department of Psychology Website](https://www.psychology.uwo.ca/people/faculty/Sakaluk.html)
+- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=a6zi3mRHKK0C&hl=en&oi=ao)
+- {{< fa brands github >}} [GitHub](https://github.com/jsakaluk)
+- {{< fa globe >}} [ORCID](https://orcid.org/0000-0002-2515-9822)

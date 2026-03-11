@@ -1,0 +1,291 @@
+/*-- scss:defaults --*/
+
+$primary:   #5B82C1;
+$secondary: #E8891D;
+$link-color: #5B82C1;
+
+$font-family-sans-serif: "Source Sans Pro", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: 600;
+
+$navbar-bg: #2D4674;
+$navbar-fg: #FFFFFF;
+$footer-bg: #2D4674;
+$footer-fg: #FFFFFF;
+
+/*-- scss:rules --*/
+
+.navbar-brand img {
+  max-height: 44px;
+}
+
+a:hover {
+  color: $secondary !important;
+}
+
+/* Hero -- white background stays in dark mode so logo colors render cleanly */
+.hero-banner {
+  text-align: center;
+  padding: 3rem 1rem;
+  margin-bottom: 2rem;
+  background: #ffffff;
+}
+
+.hero-logo {
+  max-width: 480px;
+  width: 100%;
+  margin-bottom: -3rem;
+}
+
+.hero-banner h1 {
+  font-size: 2rem;
+  color: #2D4674;
+  margin-bottom: 0.5rem;
+}
+
+.hero-banner .lead {
+  font-size: 1.15rem;
+  color: #555;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Home sections */
+.home-section {
+  padding: 2rem 0;
+}
+
+.home-section h2 {
+  color: $primary;
+  border-bottom: 3px solid $secondary;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.25rem;
+  display: inline-block;
+}
+
+/* People card grid */
+.quarto-listing-default .listing-image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Project card images: show full logo, centered */
+#listing-projects-listing .card-img-top {
+  text-align: center;
+  background: #ffffff;
+  padding: 0.75rem;
+}
+
+#listing-projects-listing .card-img {
+  width: auto !important;
+  max-width: 100%;
+  height: 130px !important;
+  object-fit: contain !important;
+  border-radius: 0 !important;
+  display: inline-block;
+}
+
+/* Card hover */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.btn-primary:hover {
+  background-color: darken($primary, 8%);
+  border-color: darken($primary, 8%);
+}
+
+.btn-secondary {
+  background-color: $secondary;
+  border-color: $secondary;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: darken($secondary, 8%);
+  border-color: darken($secondary, 8%);
+  color: #fff;
+}
+
+/* Role badge */
+.role-badge {
+  display: inline-block;
+  background-color: $secondary;
+  color: #fff;
+  padding: 0.15rem 0.6rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+/* Profile header */
+.profile-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile-header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid $secondary;
+  margin-bottom: 1rem;
+}
+
+.profile-header h1 {
+  color: $primary;
+  margin-bottom: 0.25rem;
+}
+
+.profile-header .subtitle {
+  color: $secondary;
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+/* Papers page */
+.paper-links {
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.paper-links .btn {
+  font-size: 0.8rem;
+  padding: 0.2rem 0.6rem;
+}
+
+hr.paper-sep {
+  border-top: 1px solid $border-color;
+  margin: 0.75rem 0 1.25rem 0;
+}
+
+#paper-filters {
+  margin-bottom: 1.5rem;
+}
+
+#paper-filters .filter-btn.active {
+  font-weight: 600;
+}
+
+/* News feed on homepage */
+.news-item {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid $border-color;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  font-size: 0.85rem;
+  color: $text-muted;
+}
+
+/* Skills training grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.25rem 0.75rem;
+  border: 1px solid $border-color;
+  border-radius: 0.75rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: $body-bg;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+  border-color: $secondary;
+}
+
+.skill-icon {
+  font-size: 2rem;
+  color: $secondary;
+  margin-bottom: 0.75rem;
+}
+
+.skill-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: $primary;
+  line-height: 1.3;
+}
+
+/* What We Do cards on homepage */
+.what-we-do-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .what-we-do-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.wwd-card {
+  padding: 1.5rem;
+  border: 1px solid $border-color;
+  border-radius: 0.75rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wwd-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+  border-color: $secondary;
+}
+
+.wwd-card h4 {
+  color: $primary;
+  margin-bottom: 0.5rem;
+}
+
+.wwd-icon {
+  font-size: 2rem;
+  color: $secondary;
+  margin-bottom: 0.5rem;
+}
+
+/* WIRE affiliation banner */
+.wire-banner {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.wire-logo {
+  max-width: 180px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .wire-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+}

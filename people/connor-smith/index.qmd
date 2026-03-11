@@ -1,0 +1,25 @@
+---
+title: "Connor Smith"
+subtitle: "Graduate Student"
+description: "University of Washington, Clinical Psychology"
+image: avatar.jpg
+group: alumni
+order: 1
+toc: false
+---
+
+::: {.profile-header}
+![](avatar.jpg)
+
+
+:::
+
+## About
+
+Former MaRSS Lab honours student. Winner of the 2023 W. J. McLelland Award (Best Honours Thesis) in Psychology. 
+
+
+## Contact
+
+- {{< fa linkedin >}} [LinkedIn](https://www.linkedin.com/in/connor-smith-2473b8173/)
+- {{< fa globe >}} [University of Washington](https://psych.uw.edu/people/11001)

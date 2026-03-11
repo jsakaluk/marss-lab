@@ -1,0 +1,120 @@
+# Sakaluk, Williams, & Botanov (2021) - Replicability for clinical psych
+- key: sakalukPrioritizationEvaluationPromotion2021
+  tags: [Credibility, Inclusivity, Interventions]
+
+
+# Fisher & Sakaluk (2020) - Singles stigmatization
+- key: fisherAreSinglePeople2020
+  tags: [Relationships, Credibility]
+  osf: https://osf.io/tmcnq/overview
+ 
+
+# Sakaluk, Biernat, Le, Lundy, & Impett (2020) - Relationship norm strength
+- key: sakalukStrengthTiesThat2020
+  tags: [Psychometrics,Relationships]
+  osf: https://osf.io/979fu/
+
+# Sakaluk & Fisher (2019) - Measurement Memo I
+- key: sakalukMeasurementMemoUpdated2019a
+  tags: [Credibility, Sexuality]
+  preprint: https://osf.io/preprints/psyarxiv/tb62k_v1
+
+
+# Williams, Botanov, Kilshaw, Wong, & Sakaluk (2020) - Potentially harmful therapies
+- key: williamsPotentiallyHarmfulTherapies2020
+  tags: [Credibility, Interventions, Synthesis]
+  osf: https://osf.io/5g6m7/overview
+  media:
+    - https://www.scientificamerican.com/article/some-psychological-interventions-are-more-harmful-than-helpful/    
+    - https://aeon.co/essays/psychotherapy-is-meant-to-help-but-what-about-when-it-harms 
+    - https://www.youtube.com/watch?v=wjfS5nS-X-w  
+    - https://www.verybadtherapy.com/episodes/vbt-in-focus-potentially-harmful-therapies-with-dr-alex-williams-and-dr-john-sakaluk  
+
+# Sakaluk, Williams, Kilshaw, & Rhyner (2019) - Evidential value of ESTs
+- key: sakalukEvaluatingEvidentialValue2019
+  tags: [Credibility, Interventions, Synthesis]
+  preprint: https://osf.io/preprints/psyarxiv/pzbhw_v1
+  osf: https://osf.io/73drs/overview
+  media:
+    - https://www.uvic.ca/news/media/2019+gold-standard-psychotherapy-johnsakaluk+media-release
+    - https://www.vicnews.com/news/paper-published-aug-1-looked-at-treatments-for-conditions-such-as-depression-insomnia-and-ptsd/
+    - https://www.psychologytoday.com/ca/blog/brainstorm/201908/how-strong-is-the-evidence-evidence-based-therapies 
+    - https://div12.org/making-meaning-of-mixed-evidential-value-for-research-on-empirically-supported-treatments-ests/  
+    - https://aeon.co/ideas/the-evidence-for-evidence-based-therapy-is-not-as-clear-as-we-thought  
+    - https://www.kcur.org/show/central-standard/2019-09-10/seg-1-replicability-crisis-seg-2-aisha-sharif 
+
+# Sakaluk (2019) - Taxometric, invariance, equivalence testing
+- key: sakalukExpandingStatisticalFrontiers2019
+  tags: [Psychometrics, Sexuality]
+  preprint: https://osf.io/4e3z5
+  osf: https://osf.io/ug5hn/overview
+  
+
+# Sakaluk, Quinn-Nilas, Fisher, Leshner, Huber, & Wood (2021) - CNM invariance/equivalence
+- key: sakalukSamenessDifferencePsychological2021
+  tags: [Inclusivity,Psychometrics, Sexuality]
+  preprint: https://drive.google.com/file/d/19jVGeq56JInnUau6SuUdWiGVamwrsGfk/view
+  osf: https://osf.io/d3bju/overview
+
+
+# Sakaluk, Kim, Campbell, Baxter, & Impett (2019) - Self-esteem & sexual health meta-analysis
+- key: sakalukSelfesteemSexualHealth2019
+  tags: [Sexuality, Synthesis]
+  preprint: https://static1.squarespace.com/static/60465101340348032b488a55/t/609342e1b37ed5361fb77c97/1620263651507/2020-HPR-Sakaluk-et-al.pdf
+  osf: hhttps://osf.io/hqd4u/overview
+
+# Sakaluk & Graham (2018) - Transparent reporting at JSR
+- key: sakalukPromotingTransparentReporting2018
+  tags: [Credibility, Sexuality]
+  preprint: https://osf.io/23jnd
+
+# Sakaluk (2020) - Replicable sexual science commentary
+- key: sakalukGettingSeriousAssessment2020
+  tags: [Credibility, Sexuality]
+
+# Sakaluk & Graham (2022) - New initiatives for JSR
+- key: sakalukNewYearNew2022
+  tags: [Credibility, Sexuality]
+  preprint: https://osf.io/preprints/psyarxiv/gd4fe_v1
+
+
+# Sakaluk & Daniel (2022) - How EIRD is sex research
+- key: sakalukHowEIRDSex2022
+  tags: [Credibility, Inclusivity, Psychometrics, Sexuality]
+  osf: https://osf.io/zr2sn/overview
+
+# Williams, Botanov, Giovanetti, et al. (2023) - ACT for depression
+- key: williamsMetascientificReviewEvidential2023
+  tags: [Credibility, Interventions, Synthesis]
+  osf: https://osf.io/dw7c5/overview
+
+# Sakaluk, Fisher, & Kilshaw (2021) - Dyadic measurement invariance
+- key: sakalukDyadicMeasurementInvariance2021a
+  tags: [Dyadic,  Open-Source, Psychometrics, Relationships]
+  osf: https://osf.io/aw4sr/overview
+  github: https://github.com/jsakaluk/dySEM
+
+# Sakaluk, De Santis, Kilshaw, et al. (2023) - Useful syntheses
+- key: sakalukReconsideringWhatMakes2023a
+  tags: [Credibility, Inclusivity, Interventions, Synthesis]
+
+# Sakaluk, Joel, Quinn-Nilas, et al. (2025) - Renewal of dyadic SEM
+- key: sakalukRenewalDyadicStructural2025
+  tags: [Dyadic, Psychometrics, Relationships]
+  preprint: hhttps://osf.io/yp485
+
+# Gauvin, Merwin, Maxwell, Kilimnik, & Sakaluk (2021) - Omega reliability
+- key: gauvinItsAllGreek2021
+  tags: [Psychometrics, Sexuality]
+  osf: https://osf.io/3tsyk
+
+# Uhlich & Sakaluk (2025) - LGB relationship norm strength meta-analysis
+- key: uhlichMultiLevelMetaAnalysisComparing2025
+  tags: [Relationships, Synthesis, Inclusivity]
+  osf: https://osf.io/tjhe3/overview?view_only=3682545c96b64add804780b2d468bd8e
+
+# Joel, Sakaluk, Kim, et al. (2024) - Pseudo effects
+- key: joelPseudoEffectsHow2024
+  tags: [Credibility, Psychometrics, Relationships]
+  osf: https://osf.io/anmre/overview
+

@@ -1,0 +1,33 @@
+---
+title: "Join the Lab"
+---
+
+The MaRSS Lab is always looking for curious, motivated people who are excited about quantitative methods, relationship science, and/or sexual science. Below you'll find information about how to join at each level. To learn more about how we work, see our [Lab Philosophy](philosophy.qmd).
+
+## How to Apply
+
+### Postdoctoral Fellows
+
+We periodically have openings for postdoctoral researchers, typically funded through internal or external fellowships or grants. 
+
+If you are interested in a postdoctoral position, please email Dr. Sakaluk directly with your CV and a link to the funding mechanism(s) you are interested in applying for.
+
+We are happy to support strong candidates in applying for external postdoctoral fellowships (e.g., SSHRC Postdoctoral Fellowship, Mitacs, the Western Postdoctoral Fellowship Program).
+
+### Graduate Students
+
+Graduate students in the MaRSS Lab are admitted through the [Department of Psychology at Western University](https://psychology.uwo.ca/graduate/index.html). Applications are typically due in **December** for the following September.
+
+As the provincial landscape for funding graduate students is increasingly challenging, we are increasingly interested in applicants with research interests that map onto our lab's broader funding priorities (e.g., models of dyadic data, open-source research software development, research synthesis methods, etc).
+
+In the interest of fairness, Dr. Sakaluk does not review application material or meet with applicants before the application deadline. 
+
+### Undergraduate Students
+
+We welcome undergraduate research assistants who are looking to gain hands-on research experience, and to develop their quantitative and programming skills 
+
+Undergraduates interested in joining the lab should complete the application form below:
+
+[**Apply as an Undergraduate RA** {{< fa arrow-up-right-from-square >}}](https://example.com/apply){.btn .btn-secondary target="_blank"}
+
+We typically recruit at the beginning of each academic term (September, January, May), but feel free to reach out at any time.

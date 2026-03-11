@@ -1,0 +1,25 @@
+---
+title: "Noémie Bouchard"
+subtitle: "Learning Specialist II"
+description: "TELUS Health MyCare"
+image: avatar.jpg
+group: alumni
+order: 1
+toc: false
+---
+
+::: {.profile-header}
+![](avatar.jpg)
+
+
+:::
+
+## About
+
+Former MaRSS Lab honours student. Winner of the 2021 W. J. McLelland Award (Best Honours Thesis) in Psychology. 
+
+
+## Contact
+
+- {{< fa linkedin >}} [LinkedIn](https://ca.linkedin.com/in/noemie-bouchard-200732215)
+

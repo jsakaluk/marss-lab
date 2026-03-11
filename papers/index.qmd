@@ -1,0 +1,196 @@
+---
+title: "Our Papers"
+toc: false
+---
+
+```{r}
+#| echo: false
+#| results: asis
+
+library(RefManageR)
+
+# Read bib file as text first and strip fields that clutter APA output
+bib_text <- readLines("references.bib", warn = FALSE)
+fields_to_remove <- c("issn", "url", "urldate", "abstract", "copyright",
+                       "language", "file", "shorttitle", "keywords", "note")
+pattern <- paste0("^\\s*(", paste(fields_to_remove, collapse = "|"), ")\\s*=\\s*\\{")
+bib_text <- bib_text[!grepl(pattern, bib_text, ignore.case = TRUE)]
+
+tmp_bib <- tempfile(fileext = ".bib")
+writeLines(bib_text, tmp_bib)
+bib <- ReadBib(tmp_bib, check = FALSE)
+
+links_raw <- yaml::read_yaml("links.yml")
+
+paper_links <- list()
+for (item in links_raw) {
+  paper_links[[item$key]] <- item
+}
+
+all_tags <- sort(unique(unlist(lapply(paper_links, function(x) x$tags))))
+
+if (length(all_tags) > 0) {
+  cat('<div id="paper-filters" class="mb-4">')
+  cat('<strong>Filter by topic:</strong> ')
+  cat('<button class="btn btn-sm btn-primary filter-btn active me-1 mb-1" data-tag="all">All</button>')
+  for (tag in all_tags) {
+    cat(sprintf(
+      '<button class="btn btn-sm btn-outline-primary filter-btn me-1 mb-1" data-tag="%s">%s</button>',
+      tag, tag
+    ))
+  }
+  cat('</div>')
+}
+
+# Sort newest first by default
+entries <- sort(bib, sorting = "ynt", decreasing = TRUE)
+years <- sapply(entries, function(e) as.character(e$year))
+
+# Sort toggle control
+cat('<div id="sort-control" class="mb-3">')
+cat('<strong>Sort by year:</strong> ')
+cat('<button class="btn btn-sm btn-primary sort-btn active me-1" data-sort="desc">Newest first</button>')
+cat('<button class="btn btn-sm btn-outline-primary sort-btn me-1" data-sort="asc">Oldest first</button>')
+cat('</div>')
+
+cat('<div id="papers-list">\n')
+
+current_year <- ""
+for (i in seq_along(entries)) {
+  entry <- entries[[i]]
+  key <- names(entries)[i]
+  yr <- years[i]
+
+  if (yr != current_year) {
+    cat(sprintf('<h2 class="year-heading" data-year="%s">\n%s\n</h2>\n', yr, yr))
+    current_year <- yr
+  }
+
+  info <- paper_links[[key]]
+  tags_str <- if (!is.null(info$tags)) paste(info$tags, collapse = ",") else ""
+
+  cat(sprintf('<div class="paper-entry" data-tags="%s" data-year="%s">\n', tags_str, yr))
+
+  cite_text <- capture.output(print(entry, .opts = list(style = "text", bib.style = "authoryear")))
+  cite_text <- paste(cite_text, collapse = " ")
+  # Clean up any residual LaTeX commands that slip through
+  cite_text <- gsub("\\\\textit\\{([^}]*)\\}", "\\1", cite_text)
+  cite_text <- gsub("\\\\textless", "<", cite_text)
+  cite_text <- gsub("\\\\textgreater", ">", cite_text)
+  # Remove "ISBN: ..." or "ISSN: ..." fragments if any remain
+  cite_text <- gsub("\\s*ISSN:\\s*[0-9Xx, -]+\\.?", "", cite_text)
+
+  cat(sprintf('<p class="paper-cite">\n%s\n</p>\n', cite_text))
+
+  doi <- entry$doi
+  cat('<div class="paper-links d-flex flex-wrap">\n')
+  if (!is.null(doi) && nchar(doi) > 0) {
+    cat(sprintf('<a href="https://doi.org/%s" class="btn btn-sm btn-primary me-1 mb-1" target="_blank"><i class="fa-solid fa-file-lines"></i> Paper</a>', doi))
+  }
+  if (!is.null(info$preprint)) {
+    cat(sprintf('<a href="%s" class="btn btn-sm btn-outline-primary me-1 mb-1" target="_blank"><i class="fa-solid fa-file-pdf"></i> Preprint</a>', info$preprint))
+  }
+  if (!is.null(info$osf)) {
+    cat(sprintf('<a href="%s" class="btn btn-sm btn-outline-primary me-1 mb-1" target="_blank"><i class="fa-solid fa-box-open"></i> OSF</a>', info$osf))
+  }
+  if (!is.null(info$github)) {
+    cat(sprintf('<a href="%s" class="btn btn-sm btn-outline-primary me-1 mb-1" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>', info$github))
+  }
+  if (!is.null(info$media)) {
+    for (m in info$media) {
+      cat(sprintf('<a href="%s" class="btn btn-sm btn-outline-secondary me-1 mb-1" target="_blank"><i class="fa-solid fa-newspaper"></i> Media</a>', m))
+    }
+  }
+  cat('\n</div>\n')
+  cat('<hr class="paper-sep">\n')
+  cat('</div>\n')
+}
+
+cat('</div>\n')
+```
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var filterButtons = document.querySelectorAll('.filter-btn');
+  var sortButtons = document.querySelectorAll('.sort-btn');
+  var container = document.getElementById('papers-list');
+
+  function applyFilter() {
+    var activeFilter = document.querySelector('.filter-btn.active');
+    var tag = activeFilter ? activeFilter.getAttribute('data-tag') : 'all';
+    var papers = document.querySelectorAll('.paper-entry');
+    var headings = document.querySelectorAll('.year-heading');
+
+    papers.forEach(function(paper) {
+      if (tag === 'all') {
+        paper.style.display = '';
+      } else {
+        var tags = paper.getAttribute('data-tags').split(',');
+        paper.style.display = tags.indexOf(tag) !== -1 ? '' : 'none';
+      }
+    });
+
+    headings.forEach(function(heading) {
+      var year = heading.getAttribute('data-year');
+      var yearPapers = document.querySelectorAll('.paper-entry[data-year="' + year + '"]');
+      var anyVisible = false;
+      yearPapers.forEach(function(p) {
+        if (p.style.display !== 'none') anyVisible = true;
+      });
+      heading.style.display = anyVisible ? '' : 'none';
+    });
+  }
+
+  function sortPapers(order) {
+    var items = Array.from(container.children);
+    var yearGroups = {};
+
+    items.forEach(function(el) {
+      var year = el.getAttribute('data-year');
+      if (!year) return;
+      if (!yearGroups[year]) yearGroups[year] = { heading: null, papers: [] };
+      if (el.classList.contains('year-heading')) {
+        yearGroups[year].heading = el;
+      } else {
+        yearGroups[year].papers.push(el);
+      }
+    });
+
+    var sortedYears = Object.keys(yearGroups).sort(function(a, b) {
+      return order === 'desc' ? b - a : a - b;
+    });
+
+    sortedYears.forEach(function(year) {
+      var group = yearGroups[year];
+      if (group.heading) container.appendChild(group.heading);
+      group.papers.forEach(function(p) { container.appendChild(p); });
+    });
+
+    applyFilter();
+  }
+
+  filterButtons.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      filterButtons.forEach(function(b) {
+        b.classList.remove('active', 'btn-primary');
+        b.classList.add('btn-outline-primary');
+      });
+      this.classList.add('active', 'btn-primary');
+      this.classList.remove('btn-outline-primary');
+      applyFilter();
+    });
+  });
+
+  sortButtons.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      sortButtons.forEach(function(b) {
+        b.classList.remove('active', 'btn-primary');
+        b.classList.add('btn-outline-primary');
+      });
+      this.classList.add('active', 'btn-primary');
+      this.classList.remove('btn-outline-primary');
+      sortPapers(this.getAttribute('data-sort'));
+    });
+  });
+});
+</script>

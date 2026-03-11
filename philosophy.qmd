@@ -28,7 +28,7 @@ I am committed to a mentorship model that is:
 
 ### {{< fa compass >}} Autonomy-Supporting {.g-col-12 .g-col-md-6}
 
-What are your professional goals? What employment doors to you want to keep open? What technical, research, and/or professional skills do you need to get there? What kind of research do you want to be known for, topically and/or methodologically? We will have conversations withe questions like these, early, and often. I believe it is important that you make your own decisions about your career; my job is to offer you an opinion and sounding-board, and to help you reason through trade-offs.
+What are your professional goals? What employment doors to you want to keep open? What technical, research, and/or professional skills do you need to get there? What kind of research do you want to be known for, topically and/or methodologically? We will have conversations with questions like these, early, and often. I believe it is important that you make your own decisions about your career; my job is to offer you an opinion and sounding-board, and to help you reason through trade-offs.
 
 ### {{< fa chess >}} Strategic {.g-col-12 .g-col-md-6}
 

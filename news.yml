@@ -1,11 +1,3 @@
 - date: "2026-03-10"
   title: "MARSS Lab website launches"
   description: "We're excited to debut the new MARSS Lab website, built with [Quarto](https://quarto.org). Explore our [People](./people/), [Projects](./projects/), and [Papers](./papers/)."
-
-- date: "2026-02-15"
-  title: "Paper accepted at Personal Relationships"
-  description: "Our paper on dyadic measurement invariance and replicability in romantic relationship research has been accepted for publication."
-
-- date: "2026-01-20"
-  title: "dySEM package update"
-  description: "Version 1.0 of the [dySEM](./projects/dySEM/) R package is now available on CRAN, featuring 84 functions for dyadic structural equation modeling."

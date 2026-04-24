@@ -21,21 +21,21 @@ Ph.D. Student | Department of Psychology | Western University
 
 ## About
 
-A short paragraph describing your background, how you joined the lab, and your current research focus.
+Hi! I'm Noah (he/him/his) and my research My research interests are in methodology (quantitative and qualitative), statistics (particularly psychometrics), and trans research. I often say I’m interested in any substantive research area insofar as it relates to/can apply to trans people, which casts both a large (but highly population-specific) net.
 
 ## Research Interests
 
-- Interest area 1
-- Interest area 2
-- Interest area 3
+- Transgender, non-binary and gender-diverse populations
+- Psychometrics
 
 ## Education
 
-- **M.A.** — University Name
-- **B.A.** — University Name
+- **M.Sc. in Experimental Psychology (Health and Wellness).** — Memorial University of Newfoundland
+- **B.A.(Hons) in Psychology (minor in Sociology)** — Memorial University of Newfoundland 
+- **Certificate in Criminology** — Memorial University of Newfoundland
 
 ## Contact
 
-- {{< fa envelope >}} [email@uwo.ca](mailto:email@uwo.ca)
-- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
-- {{< fa brands github >}} [GitHub](https://github.com/username)
+- {{< fa envelope >}} [email@uwo.ca](mailto:npevie@uwo.ca)
+- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=86aZ6p4AAAAJ&hl=en&authuser=2)
+- {{< fa brands github >}} [GitHub](https://github.com/npevie)

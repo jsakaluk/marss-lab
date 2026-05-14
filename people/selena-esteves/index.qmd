@@ -1,7 +1,7 @@
 ---
 title: "Selena Esteves"
 subtitle: "Masters Student"
-description: "Brief description of research interests and role in the lab. Edit this file to customize your profile."
+description: "Masters student interested in interventions for women's sexual desire, the relationship between sexual dysfunctions and anxiety/depression, and research synthesis methods."
 image: avatar.jpg
 group: grad
 order: 1
@@ -14,28 +14,29 @@ toc: false
 # Graduate Student Name {.name}
 
 ::: {.subtitle}
-Ph.D. Student | Department of Psychology | Western University
+M.Sc. Student | Department of Psychology | Western University
 :::
 
 :::
 
 ## About
 
-A short paragraph describing your background, how you joined the lab, and your current research focus.
+I am a Masters student in Western's Clinical Science and Psychopathology program, who joined the MaRSS Lab in 2024. My research interests centre around women's sexual health and wellness, namely, interventions for women's sexual desire. My current work focuses on using advanced meta-analytic methods to synthesize evidence on interventions for women's sexual dysfunctions, as well as assessing the relationship between sexual dysfunctions and mental health (e.g., depression and anxiety). 
+When not making pretty graphs in R, Selena can be found knitting, at the farmer's market, or watching Survivor.
 
 ## Research Interests
 
-- Interest area 1
-- Interest area 2
-- Interest area 3
+- Women's sexual dysfunctions
+- Research synthesis methods
+- Multidimensionality of sexual dysfunctions, and mood/anxiety disorders
 
 ## Education
 
-- **M.A.** — University Name
-- **B.A.** — University Name
+- **M.Sc.** — Western University
+- **B.Sc.** — McMaster University (Biology and Psychology)
 
 ## Contact
 
-- {{< fa envelope >}} [email@uwo.ca](mailto:email@uwo.ca)
-- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
-- {{< fa brands github >}} [GitHub](https://github.com/username)
+- {{< fa envelope >}} [sesteve@uwo.ca](mailto:sesteve@uwo.ca)
+- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=MJBFkDsAAAAJ&hl=en&oi=ao)
+- {{< fa brands github >}} [GitHub](https://github.com/spesteves)

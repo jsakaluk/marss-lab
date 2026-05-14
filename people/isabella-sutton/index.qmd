@@ -9,33 +9,31 @@ toc: false
 ---
 
 ::: {.profile-header}
-![](avatar.jpg)
+![](avatar.JPG)
 
 # Graduate Student Name {.name}
 
 ::: {.subtitle}
-Ph.D. Student | Department of Psychology | Western University
+Undergraduate Honors Thesis Student | Department of Psychology | Western University
 :::
 
 :::
 
 ## About
 
-A short paragraph describing your background, how you joined the lab, and your current research focus.
+I am a fourth year Honours psychology student interested in researching women’s sexual desire and pleasure, as well as sexual compatibility, inclusive sex education, and responses to sexual trauma. I joined the MaRSS Lab and found my love of research in 2025, where I continue to act as a research assistant, assisting in a synthesis of interventions for women's low sexual desire. 
+When I'm not coding effects I can be found cuddling my dog, Atticus, and having intense Star Wars marathons.
 
 ## Research Interests
 
-- Interest area 1
-- Interest area 2
-- Interest area 3
+- Sexual dysfunctions
+- Sex therapy techniques
+- Sexual compatibility
 
 ## Education
 
-- **M.A.** — University Name
-- **B.A.** — University Name
+- **B.A.** — Western University
 
 ## Contact
 
-- {{< fa envelope >}} [email@uwo.ca](mailto:email@uwo.ca)
-- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
-- {{< fa brands github >}} [GitHub](https://github.com/username)
+- {{< fa envelope >}} [isutton2@uwo.ca](mailto:isutton2@uwo.ca)

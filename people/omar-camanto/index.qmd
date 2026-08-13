@@ -1,7 +1,7 @@
 ---
-title: "Omar Camanto"
+title: "Omar Jordan Camanto"
 subtitle: "Doctoral Student"
-description: "Brief description of research interests and role in the lab. Edit this file to customize your profile."
+description: "PhD student at Western University—interested in romantic relationships, trust, and psychometrics."
 image: avatar.jpg
 group: grad
 order: 1
@@ -11,7 +11,7 @@ toc: false
 ::: {.profile-header}
 ![](avatar.jpg)
 
-# Graduate Student Name {.name}
+# Omar Jordan Camanto {.name}
 
 ::: {.subtitle}
 Ph.D. Student | Department of Psychology | Western University
@@ -21,21 +21,22 @@ Ph.D. Student | Department of Psychology | Western University
 
 ## About
 
-A short paragraph describing your background, how you joined the lab, and your current research focus.
+I am a PhD student in the Department of Psychology at Western University. My research interests span the domains of close relationships and psychometrics. I am particularly passionate about investigating the nature and structure of trust in romantic relationships, as well as developing software tools to streamline measurement invariance testing.
 
 ## Research Interests
 
-- Interest area 1
-- Interest area 2
-- Interest area 3
+- Romantic relationships
+- Trust
+- Psychometrics
+- Research software development
 
 ## Education
 
-- **M.A.** — University Name
-- **B.A.** — University Name
+- **M.Sc.** — University of Western Ontario
+- **B.Sc.** — University of Waterloo (Psychology + Biology [Minor])
 
 ## Contact
 
-- {{< fa envelope >}} [email@uwo.ca](mailto:email@uwo.ca)
-- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
-- {{< fa brands github >}} [GitHub](https://github.com/username)
+- {{< fa envelope >}} [ocamanto@uwo.ca](mailto:ocamanto@uwo.ca)
+- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.ca/citations?user=VTTVVP8AAAAJ&hl=en&oi=ao)
+- {{< fa brands github >}} [GitHub](https://github.com/omarjcamanto)

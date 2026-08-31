@@ -1,7 +1,7 @@
 ---
 title: "McKell Jorgensen-Wells"
 subtitle: "Doctoral Student"
-description: "Brief description of research interests and role in the lab. Edit this file to customize your profile."
+description: "Ph.D. student interested in romantic relationship research and dyadic data analysis."
 image: avatar.jpg
 group: grad
 order: 1
@@ -21,21 +21,16 @@ Ph.D. Student | Department of Psychology | Western University
 
 ## About
 
-A short paragraph describing your background, how you joined the lab, and your current research focus.
-
-## Research Interests
-
-- Interest area 1
-- Interest area 2
-- Interest area 3
+- Best practices within structural equation modeling for using dyadic longitudinal data to model relationship development and couples’ long-term outcomes 
+- Development and maintenance of positive romantic relationships in adolescence and early adulthood, including romantic relationship formation (mate selection, romantic socialization, etc.), emotional and physical intimacy, fostering attachment security, and relational/individual outcomes
 
 ## Education
 
-- **M.A.** — University Name
-- **B.A.** — University Name
+- **M.S.** — Brigham Young University
+- **B.S.** — Brigham Young University
 
 ## Contact
 
-- {{< fa envelope >}} [email@uwo.ca](mailto:email@uwo.ca)
-- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
-- {{< fa brands github >}} [GitHub](https://github.com/username)
+- {{< fa envelope >}} [mwells43@uwo.ca](mailto:mwells43@uwo.ca)
+- {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=PAr5T2wAAAAJ&hl=en)
+- {{< fa brands github >}} [GitHub](https://github.com/mjorgwells)

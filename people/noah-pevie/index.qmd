@@ -14,19 +14,20 @@ toc: false
 # Graduate Student Name {.name}
 
 ::: {.subtitle}
-Ph.D. Student | Department of Psychology | Western University
+Ph.D. Candidate | Department of Psychology | Western University
 :::
 
 :::
 
 ## About
 
-Hi! I'm Noah (he/him/his) and my research My research interests are in methodology (quantitative and qualitative), statistics (particularly psychometrics), and trans research. I often say I’m interested in any substantive research area insofar as it relates to/can apply to trans people, which casts both a large (but highly population-specific) net.
+Hi! I'm Noah (he/him/his) and I am a PhD student who joined MaRSS in 2024. My research interests are in transgender and non-binary populations, psychometrics, and advanced statistical methods. I have also developed a passion for qualitative research. I often say I’m interested in any substantive research area insofar as it relates to/can apply to trans and non-binary people, which casts both a large (but highly population-specific) net. When his nose is not in a statistics or trans history book, Noah can be found reading thriller novels, playing Pokémon games, or cuddling his calico cat, Luna. 
 
 ## Research Interests
 
 - Transgender, non-binary and gender-diverse populations
 - Psychometrics
+- Advanced quantitative methods
 
 ## Education
 
@@ -36,6 +37,6 @@ Hi! I'm Noah (he/him/his) and my research My research interests are in methodolo
 
 ## Contact
 
-- {{< fa envelope >}} [email@uwo.ca](mailto:npevie@uwo.ca)
+- {{< fa envelope >}} [npevie@uwo.ca](mailto:npevie@uwo.ca)
 - {{< fa brands google-scholar >}} [Google Scholar](https://scholar.google.com/citations?user=86aZ6p4AAAAJ&hl=en&authuser=2)
 - {{< fa brands github >}} [GitHub](https://github.com/npevie)

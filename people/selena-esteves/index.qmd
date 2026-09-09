@@ -1,7 +1,7 @@
 ---
 title: "Selena Esteves"
-subtitle: "Masters Student"
-description: "Masters student interested in interventions for women's sexual desire, the relationship between sexual dysfunctions and anxiety/depression, and research synthesis methods."
+subtitle: "PhD Student"
+description: "PhD student interested in interventions for women's sexual desire, the relationship between sexual dysfunctions and anxiety/depression, and research synthesis methods."
 image: avatar.jpg
 group: grad
 order: 1
@@ -11,10 +11,10 @@ toc: false
 ::: {.profile-header}
 ![](avatar.jpg)
 
-# Graduate Student Name {.name}
+# Selena Esteves {.name}
 
 ::: {.subtitle}
-M.Sc. Student | Department of Psychology | Western University
+PhD Student | Department of Psychology | Western University
 :::
 
 :::
@@ -32,8 +32,8 @@ When not making pretty graphs in R, Selena can be found knitting, at the farmer'
 
 ## Education
 
-- **M.Sc.** — Western University
-- **B.Sc.** — McMaster University (Biology and Psychology)
+- **M.Sc.(Clinical Science and Psychopathology)** — Western University
+- **B.Sc. (Biology and Psychology, Neuroscience & Behaviour)** — McMaster University
 
 ## Contact
 

@@ -1,7 +1,7 @@
 ---
 title: "Isabella Sutton"
 subtitle: "Undergraduate Student"
-description: "Brief description of research interests and role in the lab. Edit this file to customize your profile."
+description: "Undergraduate honours thesis student interested in sexual dysfunctions and sexual therapy."
 image: avatar.jpg
 group: undergrad
 order: 1
@@ -9,9 +9,9 @@ toc: false
 ---
 
 ::: {.profile-header}
-![](avatar.JPG)
+![](avatar.jpg)
 
-# Graduate Student Name {.name}
+# Isabella Sutton {.name}
 
 ::: {.subtitle}
 Undergraduate Honors Thesis Student | Department of Psychology | Western University
@@ -32,7 +32,7 @@ When I'm not coding effects I can be found cuddling my dog, Atticus, and having 
 
 ## Education
 
-- **B.A.** — Western University
+- **B.A.(in progress) ** — Western University
 
 ## Contact
 

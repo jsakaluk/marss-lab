@@ -1,7 +1,7 @@
 ---
 title: "Noah Pevie"
 subtitle: "Doctoral Student"
-description: "Brief description of research interests and role in the lab. Edit this file to customize your profile."
+description: "PhD student interested in all things trans and their applications to quantitative methods."
 image: avatar.jpg
 group: grad
 order: 1
